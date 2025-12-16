@@ -1,16 +1,13 @@
 ## IMPORT MODULES
 import sqlite3
 
-## DECLARE VARIABLES
-DBPath = "data.db"
-
 ## BEGIN DEFINE FUNCTION
-def fn_NormalizeDataWebsitesInDB():
+def fn_NormalizeDataWebsitesInDB(DbPath="data.db"):
 
     # NORMALIZE WEBSITE COLUMN ACROSS ALL TABLES
     
     ## CONNECT TO DATABASE
-    Connection = sqlite3.connect(DBPath)
+    Connection = sqlite3.connect(DbPath)
     Cursor = Connection.cursor()
     
     ## GET ALL TABLE NAMES
@@ -72,3 +69,9 @@ def fn_NormalizeDataWebsitesInDB():
     ## RETURN RESULT
     return f"Website normalization complete: {TotalUpdated} records updated across all tables"
 ## END DEFINE FUNCTION
+
+## TESTING
+if __name__ == "__main__":
+    
+    # TEST THE NORMALIZATION
+    print(fn_NormalizeDataWebsitesInDB("data.db"))
