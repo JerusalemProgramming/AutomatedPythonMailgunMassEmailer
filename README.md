@@ -15,6 +15,3 @@ AutomatedPythonMailgunMassEmailer
 </br>
 </br>GITHUB: https://github.com/JerusalemProgramming/CreateSQLiteDBFromCSV_NormalizeDataInDB
 </br>GITHUB: https://github.com/JerusalemProgramming/AutomatedPythonMailgunMassEmailer
-
-GITHUB: https://github.com/JerusalemProgramming/CreateSQLiteDBFromCSV_NormalizeDataInDB
-GITHUB: https://github.com/JerusalemProgramming/AutomatedPythonMailgunMassEmailer
