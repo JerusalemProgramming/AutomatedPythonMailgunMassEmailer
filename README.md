@@ -2,7 +2,7 @@
 AutomatedPythonMailgunMassEmailer
 
 <ol>
-<li>Designed and developed the company website for international securities-based financing solutions.</li>
+<li>Designed and developed the company website for international securities-based loan financing solutions: https://ZZFinancing.com</li>
 <li>Developed, integrated, and implemented a custom subscribe/unsubscribe form within the PHP / MySQL website that allows the user to subscribe and/or unsubscribe to future emails via a double opt-in/opt-out e-mail confirmation with unique hash tokens.</li>
 <li>Created a custom Python-based automated cold email outreach tool to generate leads from databases of family offices, wealth management firms, endowment funds, institutional investors, investment bankers, private banks, merchant banks, and investment funds.</li>
 <li>Developed data ingestion pipelines to extract, clean, normalize, and store company/contact information from large CSV files into a structured SQLite database of over 24000+ contacts/companies (i.e. unique e-mails).</li>
